@@ -1,0 +1,7 @@
+¿Cómo crear una carpeta en GitHub?
+Ya cuando te enteras, piensas en el clásico "por qué no se me ocurrió antes?"
+Es muy sencillo... XD
+Deja de buscar el botón que dice "crear carpeta", ese único que dice "Add file", es el bueno.
+Le das click y en el campo que se debe escribir el nombre, es allí donde puedes declarar las carpetas nuevas.
+Simplemente se usa la diagonal '/' para anidar carpetas dentro de la carpeta principal.
+Me parece una buena pregunta de trivia. Porque... (pasar al segundo renglón) XD
