@@ -16,4 +16,6 @@ Me dedico a estudiar las causas y las formas de resolver. Saludos.
 
 ### Add
 ## [1.1.1] - 2026-04-25
-Se logra encuentrar la sencilla froma de crear carpetas en GitHub. El relato se encuentra en el archivo Crear_Carpeta.txt, dentro de la carpeta 'ejercicios', en este mismo repositorio 'Evidencias'
+Se logra encuentrar la sencilla froma de crear carpetas en GitHub. El relato se encuentra en el archivo Crear_Carpeta.txt, dentro de la recien nacida carpeta 'ejercicios', en este mismo repositorio 'Evidencias'.
+Ahora se aprovecha para agregar otra carpeta que sea hermana de 'ejercicios' y se llama 'notas'.
+
