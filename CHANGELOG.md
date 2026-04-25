@@ -13,3 +13,7 @@ Se crea el repositorio 'Evidencias' en la cuenta GitHub. Al tiempo que se descub
 
 He tenido algunas dificultades para trabajar el repositorio, me ha negado realizar algunos cambios desde la terminal. Me dice que tengo problemas con la autenticación. 
 Me dedico a estudiar las causas y las formas de resolver. Saludos.
+
+### Add
+## [1.1.1] - 2026-04-25
+Se logra encuentrar la sencilla froma de crear carpetas en GitHub. El relato se encuentra en el archivo Crear_Carpeta.txt, dentro de la carpeta 'ejercicios', en este mismo repositorio 'Evidencias'
