@@ -1,8 +1,13 @@
 # Evidencias
+
 Repositorio para Evidencias sobre el Plan de Formación Técnica para SAPCI.
+
 ## Plan de Formación Técnica:
+
 ## Backend con Node.js, Express y PostgreSQL
+
 ### Coordinación Técnica de Gestión de Información, Evaluación, Tecnologías y Estadísticas
+
 #### Abril, 2026
 
 > Ruta de aprendizaje prograsiva y autogestionada orientada al desarrolle backend. El enfoque prioriza
@@ -11,6 +16,7 @@ Repositorio para Evidencias sobre el Plan de Formación Técnica para SAPCI.
 > fechas límite: Avanza a tu ritmo y consolida cada concepto antes de continuar.
 
 ## Repositorio de Evidencias (GitHub)
+
 - [x] Crear un reposotorio público o privado bajo su cuenta de GitHub.
 - [x] Estructura inicial recomendada:
 
@@ -18,10 +24,12 @@ Repositorio para Evidencias sobre el Plan de Formación Técnica para SAPCI.
      + **CHANGELOG.md** Bitácora de progreso (conceptos explorados, dudas resueltas, patrones descubiertos, sin marcar fechas). 
      + **REVISION.md** Archivo vacío inicialmente. Aquí se centralizará la retroalimentación del mentor.  
      + /ejercicios/ o /notas/: Carpetas para snippets, pruebas aisladas y documentación interna.  
+
 - [x] Flujo de revisión: al consolidar un bloque temático, abrir un Pull Request (PR) / Merge Request (MR) hjjacia la rama principal. El mentor revisará y añadirá comentarios o sugerencias directamente en **REVISION.md** dentro del mismo PR.
 - [ ] Mantener un historial de commits limpio y descriptivo (**docs:, feat:, chore:, refactor:**)
 
 ## Fase 1: JavaScript desde Cero (con base de programación)
+
 - [ ] Sintaxis básica: Tipos, operadores, estructuras de control (**if, for, while**).
 - [ ] Funciones: declaración, expresiones, ámbitos y closures.
 - [ ] Objetos y arrays literales: creación, acceso, mutación.
@@ -30,6 +38,7 @@ Repositorio para Evidencias sobre el Plan de Formación Técnica para SAPCI.
 - [ ] _Documentar en el repo: snippets que contrasten con otros lenguajes (Python, Java, C#). Notas sobre el modelo de objetos de JS._
 
 ## Fase 2: JavaScript Moderno (ES6+) orientado a backend
+
 - [ ] Variables: **let** y **const** vs **var**, alcance de bloque.
 - [ ] Funciones flecha (**()=>**) y su impacto en **this** (especialmente en callbacks).
 - [ ] Destructuring de objetos/arrays y operadores spread/rest (...).
@@ -40,6 +49,7 @@ Repositorio para Evidencias sobre el Plan de Formación Técnica para SAPCI.
 - [ ] Documentar en el repo: ejemplos prácticos de cada característica aplicadas a procesamiento de datos (listas, objetos).
 
 ## Fase 3: Fundamentos de Backend y HTTP
+
 - [ ] Modelo cliente-servidor, peticiones/respuestas, métodos **HTTP (GET, POST, PUT, DELETE, PATCH)**.
 - [ ] Códigos de estado (2xx, 3xx, 4xx, 5xx) y cabeceras comunes (**Content-Type, Authorization**).
 - [ ] JSON como formato de intercambio: serialización/deserialización (**JSON.stringify, JSON.parse**).
@@ -48,6 +58,7 @@ Repositorio para Evidencias sobre el Plan de Formación Técnica para SAPCI.
 - [ ] _Documentar en el repo: servidor **HTTP** mínimo con Node puro, ememplos de curl para probarlo._
 
 ## Fase 4: Express.js - Primeros Pasos
+
 - [ ] Inicialización de proyecto con **npm init**, instalación de express.
 - [ ] Aplicación mínima: **app.get()**, **app.listen()**, ruta raíz.
 - [ ] Manejo de rutas: par+ametros de ruta (**/users/:id**), query strings (**req.query**).
@@ -57,6 +68,7 @@ Repositorio para Evidencias sobre el Plan de Formación Técnica para SAPCI.
 - [ ] _Documentar en el repo: API simple de gestión de tareas (CRUD en memoria). Incluir ejemplos de peticiones con Postman o curl_.
 
 ## Fase 5: PosgreSQL y Conexión desde Node.js
+
 - [ ] Instalación y gestión de PostgreSQL (local o Docker). Conceptos: base de datos, esquema, tablas, tipos.
 - [ ] SQL esencial: **SELECT, INSERT, UPDATE, DELETE, JOIN** básico.
 - [ ] Cliente **psql** y creación de una base de datos para la API.
@@ -66,6 +78,7 @@ Repositorio para Evidencias sobre el Plan de Formación Técnica para SAPCI.
 - [ ] _Documentar en el repo: script de migración inicial (creación de tabla **items** o similar), ejemplos de **client.query** con parámetros_.
 
 ## Fase 6: API REST Completa con Express + PostgreSQL
+
 - [ ] Estructura de proyecto por capas: rutas controladores, servicios, repositorios.
 - [ ] Variables de entorno con **dotenv** (puerto, cadena de conexión a BD).
 - [ ] Operaciones **CRUD** completas para un recurso (ej. **/api/productos**).
@@ -75,6 +88,7 @@ Repositorio para Evidencias sobre el Plan de Formación Técnica para SAPCI.
 - [ ] _Documentar en el repo: código organizado, colección de Postman, exportada, ejemplos de respuestas exitosas y de error_.
 
 ## Fase 7: Buenas Prácticas y Preparación para Entornos Reales
+
 - [ ]  Uso de **nodemon** en desarrollo y **pm2** en producción (gestión de procesos).
 - [ ]  Logging con **morgan** (request) y **winston** (logs estructurados).
 - [ ]  Pruebas unitarias e integración con Jest o Vitest (para rutas y base de datos).
@@ -85,6 +99,7 @@ Repositorio para Evidencias sobre el Plan de Formación Técnica para SAPCI.
 - [ ]  _Documentar en el repo: pipeline de CI, configuración de variables de entorno en producción, script de despliegue_.
 
 ___
+
 **Notas de acompañamiento:**
 + Recisión asíncrona vía PR/MR en el repo de evidencias.
 + Retroalimmentación centralizada en **REVISION.md**.
@@ -93,5 +108,9 @@ ___
 + Se recomienda usar **curl, Postman** o **Insomnia** para probar endpoints.
 
 ___
-**Elaboró**: Jefatura de Unidad Departamental de Informática.  
-_Por la soberanía tecnológica_
+
+### Instrucciones para replicar repositorio
+
+En la página principal del presente repositorio [_Evidencias_](https://github.com/Kozk9/Evidencias),  
+presionar el botón verde con la leyenda _<> Código_. Entonces se puede elegir entre varias opciones  
+para replicar el repositorio, desde descargar todo en carpeta _.zip_, o usando _HTTPS_, _SSH_ o con el _CLI_ de GitHub.
