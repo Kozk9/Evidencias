@@ -7,22 +7,22 @@ y este proyecto se adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.
 
 ## [Unreleased]
 
-### Add
+#### Add
 
-#### [1.1.1] - 2026-04-30
+### [1.1.1] - 2026-04-30
 
 Se trabajaron las correcciones observadas en _REVISION.md_ y se modifica el presente _CHANGELOG.md_
 
-### Add
+#### Add
 
-#### [1.1.1] - 2026-04-25
+### [1.1.1] - 2026-04-25
 
 Se logra encuentrar la sencilla froma de crear carpetas en GitHub.
 Ahora se aprovecha para agregar otra carpeta que sea hermana de 'ejercicios' y se llama 'notas'.
 
-### Add
+#### Add
 
-#### [1.1.1] - 2026-04-20
+### [1.1.1] - 2026-04-20
 
 Se crea el repositorio 'Evidencias' en la cuenta GitHub. Al tiempo que se descubre que las interfaces no ofrecen algún botón para crear carpetas.
 
