@@ -7,20 +7,28 @@ y este proyecto se adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.
 
 ## [Unreleased]
 
-#### Add
-
 ### [1.1.1] - 2026-04-30
 
+#### Agregado
 Se trabajaron las correcciones observadas en _REVISION.md_ y se modifica el presente _CHANGELOG.md_
 
-#### Add
+#### Agregado
 
+Se movió el contenido sobre los temas de la mentoria del [README.md](https://github.com/Kozk9/Evidencias/blob/main/README.md.md) a un archivo separado llamado [FASES.md](https://github.com/Kozk9/Evidencias/blob/main/fases/FASES.md) y se referenció en el [README.md](https://github.com/Kozk9/Evidencias/blob/main/README.md.md). Se agregaron enlaces de navegación.
+
+#### 🚧 Pendiente
+
+El índice sigue en proceso.
+
+#### Agregado
+
+Se agregan comandos para clonar el repositorio por HTTP o SSH
 ### [1.1.1] - 2026-04-25
 
 Se logra encuentrar la sencilla froma de crear carpetas en GitHub.
 Ahora se aprovecha para agregar otra carpeta que sea hermana de 'ejercicios' y se llama 'notas'.
 
-#### Add
+#### Agregado
 
 ### [1.1.1] - 2026-04-20
 
