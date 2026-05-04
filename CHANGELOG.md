@@ -7,9 +7,22 @@ y este proyecto se adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.
 
 ## [Unreleased]
 
+### [1.1.1] - 2026-05-04
+
+#### Agregado
+
+Se realizan cambios sugeridos el día 30 de abril en [REVISION.md](https://github.com/Kozk9/Evidencias/blob/main/REVISION.md).  
+Se modificó la jerarquía de las secciones en [CHANGELOG.md](https://github.com/Kozk9/Evidencias/blob/main/CHANGELOG.md) (Fechas y secciones).  
+Se incluye un índice del Plan de Formación Técnica para SAPCI en [README.md](https://github.com/Kozk9/Evidencias/blob/main/README.md).  
+
+#### 🚧 Pendiente
+
+Se da continuidad a la Fase 1.
+
 ### [1.1.1] - 2026-04-30
 
 #### Agregado
+
 Se trabajaron las correcciones observadas en _REVISION.md_ y se modifica el presente _CHANGELOG.md_
 
 #### Agregado
