@@ -1,4 +1,6 @@
-# Evidencias
+# README.md 
+
+## Evidencias
 
 #### Abril, 2026
 
@@ -24,6 +26,8 @@ para replicar el repositorio, desde descargar todo en carpeta _.zip_, o usando _
 
 ### Coordinación Técnica de Gestión de Información, Evaluación, Tecnologías y Estadísticas
 
+#### Índice
+
 0. Repositorio de Evidencias (GitHub)
 1. Fase 1: JavaScript desde Cero (con base de programación)
 2. Fase 2: JavaScript Moderno (ES6+) orientado a backend
@@ -33,14 +37,13 @@ para replicar el repositorio, desde descargar todo en carpeta _.zip_, o usando _
 6. Fase 6: API REST Completa con Express + PostgreSQL
 7. Fase 7: Buenas Prácticas y Preparación para Entornos Reales
 
-__
+**El contenido completo del plan de formación técnica se puede consultar en el archivo [FASES.md](https://github.com/Kozk9/Evidencias/blob/main/fases/FASES.md)**
+___
 
 > Ruta de aprendizaje prograsiva y autogestionada orientada al desarrolle backend. El enfoque prioriza
 > la comprensión de la asincronía, el manejo de peticiones HTTP y la integración con bases de datos
 > relacionales. Se recomienda llevar un registro continuo en un repositorio personal de evidencias. Sin
 > fechas límite: Avanza a tu ritmo y consolida cada concepto antes de continuar.
-
-**El contenido del plan de formación técnica se puede consultar en el archivo [FASES.md](https://github.com/Kozk9/Evidencias/blob/main/fases/FASES.md)**
 ___
 
 **Notas de acompañamiento:**
