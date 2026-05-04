@@ -1,5 +1,7 @@
 # Evidencias
 
+#### Abril, 2026
+
 Repositorio para Evidencias sobre el Plan de Formación Técnica para SAPCI.
 
 ## Instrucciones para replicar repositorio
@@ -15,20 +17,30 @@ para replicar el repositorio, desde descargar todo en carpeta _.zip_, o usando _
 	git clone git@github.com:Kozk9/Evidencias.git # Para SSH 
 ```
 
+
 ## Plan de Formación Técnica:
 
 ## Backend con Node.js, Express y PostgreSQL
 
 ### Coordinación Técnica de Gestión de Información, Evaluación, Tecnologías y Estadísticas
 
-#### Abril, 2026
+0. Repositorio de Evidencias (GitHub)
+1. Fase 1: JavaScript desde Cero (con base de programación)
+2. Fase 2: JavaScript Moderno (ES6+) orientado a backend
+3. Fase 3: Fundamentos de Backend y HTTP
+4. Fase 4: Express.js - Primeros Pasos
+5. Fase 5: PosgreSQL y Conexión desde Node.js
+6. Fase 6: API REST Completa con Express + PostgreSQL
+7. Fase 7: Buenas Prácticas y Preparación para Entornos Reales
+
+__
 
 > Ruta de aprendizaje prograsiva y autogestionada orientada al desarrolle backend. El enfoque prioriza
 > la comprensión de la asincronía, el manejo de peticiones HTTP y la integración con bases de datos
 > relacionales. Se recomienda llevar un registro continuo en un repositorio personal de evidencias. Sin
 > fechas límite: Avanza a tu ritmo y consolida cada concepto antes de continuar.
 
-El contenido del plan de formación técnica se puede consultar en el archivo [FASES.md](https://github.com/Kozk9/Evidencias/blob/main/fases/FASES.md)
+**El contenido del plan de formación técnica se puede consultar en el archivo [FASES.md](https://github.com/Kozk9/Evidencias/blob/main/fases/FASES.md)**
 ___
 
 **Notas de acompañamiento:**
