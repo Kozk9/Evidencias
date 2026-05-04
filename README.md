@@ -8,6 +8,12 @@ En la página principal del presente repositorio [_Evidencias_](https://github.c
 presionar el botón verde con la leyenda _<> Código_. Entonces se puede elegir entre varias opciones  
 para replicar el repositorio, desde descargar todo en carpeta _.zip_, o usando _HTTPS_, _SSH_ o con el _CLI_ de GitHub.
 
+- El repositorio se puede clonar al ejecutar alguno de los siguientes comandos en la terminal:
+
+```bash
+	git clone https://github.com/Kozk9/Evidencias.git # Para HTTPS
+	git clone git@github.com:Kozk9/Evidencias.git # Para SSH 
+```
 
 ## Plan de Formación Técnica:
 
