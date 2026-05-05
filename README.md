@@ -8,7 +8,7 @@ Repositorio para Evidencias sobre el Plan de Formación Técnica para SAPCI.
 
 ## Instrucciones para replicar repositorio
 
-En la página principal del presente repositorio [_Evidencias_](https://github.com/Kozk9/Evidencias),  
+En la página principal del presente repositorio [Evidencias](https://github.com/Kozk9/Evidencias),  
 presionar el botón verde con la leyenda _<> Código_. Entonces se puede elegir entre varias opciones  
 para replicar el repositorio, desde descargar todo en carpeta _.zip_, o usando _HTTPS_, _SSH_ o con el _CLI_ de GitHub.
 
@@ -37,7 +37,7 @@ para replicar el repositorio, desde descargar todo en carpeta _.zip_, o usando _
 6. Fase 6: API REST Completa con Express + PostgreSQL
 7. Fase 7: Buenas Prácticas y Preparación para Entornos Reales
 
-**El contenido completo del plan de formación técnica se puede consultar en el archivo [FASES.md](https://github.com/Kozk9/Evidencias/blob/main/fases/FASES.md)**
+**El contenido completo del plan de formación técnica se puede consultar en el archivo [FASES.md](/FASES.md)**
 ___
 
 > Ruta de aprendizaje prograsiva y autogestionada orientada al desarrolle backend. El enfoque prioriza
