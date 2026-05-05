@@ -9,6 +9,10 @@ y este proyecto se adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.
 
 ### [1.1.1] - 2026-05-05
 
+#### Agregado
+
+En la carpeta 'ejercicios' se agrega una carpeta para la 'fase1' y dentro se incluye el archivo 'FASE1.md', donde se registran datos relevantes para la comprensión de dicha FASE 1.
+
 #### Correcciones
 
 Se cambió la ubicación del archivo FASES.md de la carpeta 'fases' a la raíz.  
@@ -16,8 +20,9 @@ Se cambiaron varias URL's de ser _públicas_, se hacen ahora _relativas_.
 
 #### Eliminado
 
-Se eliminó la carpeta 'fases'.  
-Se eliminó la carpeta 'notas'
+Se eliminó la carpeta 'fases'    
+Se eliminó la carpeta 'notas'  
+Se eliminó el archivo 'fase1.txt'
 
 ### [1.1.1] - 2026-05-04
 
