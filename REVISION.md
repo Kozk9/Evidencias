@@ -1,5 +1,37 @@
 ## REVISION.md para revisión de programa de mentoria
 
+### 04/05/2026
+
+- Se apecia en [README](README.md) inclusión de instrucciones completas para replicar repositorio correctamente, así como la separación del contenido sobre el progreso de las fases en [FASES.md](/fases/FASES.md). 
+- En [CHANGELOG.md](CHANGELOG.md) se aprecian que los enlaces se encuentran como
+`[REVISION.md](https://github.com/Kozk9/Evidencias/blob/main/REVISION.`. 
+Si bien esto funciona, cabe mencionar que en los proyectos no se utilizan URL `publicas`, sino `relativas`.
+Para este caso, te comparto el como veo la estructura al clonar el repositorio en mi equipo con el comando `tree`:
+
+```bash
+$ tree .
+.
+├── CHANGELOG.md
+├── ejercicios
+│   └── fase1
+│       ├── Fase1.md
+│       └── fase1.txt
+├── fases
+│   └── FASES.md
+├── LICENSE
+├── notas
+│   └── notas.txt
+├── README.md
+└── REVISION.md
+
+5 directories, 8 files
+
+```
+De modo que en mi entorno `local`, la referencia relativa a [REVISION](REVISION.md) es directa, ya que ambas se encuentran en el mismo _nivel_ o el mismo _directorio_.
+
+> Nota: Si fue deliverado (por las limitaciones de tu equipo), esta bien, solo hago el comentario por si se me paso.
+
+> Nota 2: May The Force Be With You!
 
 ### 30/04/2026
 
