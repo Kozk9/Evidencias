@@ -7,13 +7,25 @@ y este proyecto se adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.
 
 ## [Unreleased]
 
+### [1.1.1] - 2026-05-05
+
+#### Correcciones
+
+Se cambió la ubicación del archivo FASES.md de la carpeta 'fases' a la raíz.  
+Se cambiaron varias URL's de ser _públicas_, se hacen ahora _relativas_.
+
+#### Eliminado
+
+Se eliminó la carpeta 'fases'.  
+Se eliminó la carpeta 'notas'
+
 ### [1.1.1] - 2026-05-04
 
 #### Agregado
 
-Se realizan cambios sugeridos el día 30 de abril en [REVISION.md](https://github.com/Kozk9/Evidencias/blob/main/REVISION.md).  
-Se modificó la jerarquía de las secciones en [CHANGELOG.md](https://github.com/Kozk9/Evidencias/blob/main/CHANGELOG.md) (Fechas y secciones).  
-Se incluye un índice del Plan de Formación Técnica para SAPCI en [README.md](https://github.com/Kozk9/Evidencias/blob/main/README.md).  
+Se realizan cambios sugeridos el día 30 de abril en [REVISION.md](/REVISION.md).  
+Se modificó la jerarquía de las secciones en [CHANGELOG.md](/CHANGELOG.md) (Fechas y secciones).  
+Se incluye un índice del Plan de Formación Técnica para SAPCI en [README.md](/README.md).  
 
 #### 🚧 Pendiente
 
@@ -27,7 +39,7 @@ Se trabajaron las correcciones observadas en _REVISION.md_ y se modifica el pres
 
 #### Agregado
 
-Se movió el contenido sobre los temas de la mentoria del [README.md](https://github.com/Kozk9/Evidencias/blob/main/README.md.md) a un archivo separado llamado [FASES.md](https://github.com/Kozk9/Evidencias/blob/main/fases/FASES.md) y se referenció en el [README.md](https://github.com/Kozk9/Evidencias/blob/main/README.md.md). Se agregaron enlaces de navegación.
+Se movió el contenido sobre los temas de la mentoria del [README.md](/README.md) a un archivo separado llamado [FASES.md](/FASES.md) y se referenció en el [README.md](/README.md). Se agregaron enlaces de navegación.
 
 #### 🚧 Pendiente
 
