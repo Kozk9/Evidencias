@@ -22,8 +22,60 @@ JavaScript por sí solo es bastante compacto aunque muy flexible, y los desarrol
 
 - [X] Sintaxis básica: Tipos, operadores, estructuras de control (**if, for, while**).
 
-  ...
-  ...
+  Se cuentan nueve tipos de datos en JavaScript, de ellos son 7 los tipos primitivos:   
+
++ **number**
++ **string**
++ **boolean**
++ null
++ undefined
++ symbol  
++ bigint  
+
+#### Números
+
+En JavaScript, no hay una diferencia entre números enteros y números decimales, todos los números son de tipo **number**
+
+##### Operadores
+
++ Suma (+)  
++ Resta (-)  
++ Multiplicación (*)
++ División (/)
++ Módulo (%)
++ Exponente (**)
+
+Los operadores mantienen los convenios matemáticos que describen el orden en que se ejecutan las operaciones según su sintáxis o el uso de signos de agrupación como los paréntesis, corchetes o llaves.  
+
+
+
+#### Cadenas de Texto  
+
+
+
+'Entre comillas simples'  
+
+"Entre comillas dobles \n y con un salto de línea"  
+
+`O entre acentos graves`  
+
+Las comillas simples y dobles funcionan igual, pero al usar acentos graves podemos escribir cadenas de texto que ocupen varias líneas:
+
+;`Esto es una cadena de texto
+que ocupa varias líneas. Puedes escribir
+tantas líneas como quieras`
+
+- Operadores
+
+##### Concatenador (+)
+
+"Se usa cuando se pretende unir" + "dos cadenas de texto en una sola"  
+
+
+#### Booleanos
+
+Se usan para operaciones de lógica binaria, verdadero o falso.  
+
 
 - [ ] Funciones: declaración, expresiones, ámbitos y closures.
 - [ ] Objetos y arrays literales: creación, acceso, mutación.
