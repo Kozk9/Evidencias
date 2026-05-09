@@ -8,7 +8,7 @@
 
 #### Abril, 2026
 
-> Ruta de aprendizaje prograsiva y autogestionada orientada al desarrolle backend. El enfoque prioriza
+> Ruta de aprendizaje prograsiva y autogestionada orientada al desarrollo backend. El enfoque prioriza
 > la comprensión de la asincronía, el manejo de peticiones HTTP y la integración con bases de datos
 > relacionales. Se recomienda llevar un registro continuo en un repositorio personal de evidencias. Sin
 > fechas límite: Avanza a tu ritmo y consolida cada concepto antes de continuar.
@@ -26,7 +26,7 @@
 - [x] Flujo de revisión: al consolidar un bloque temático, abrir un Pull Request (PR) / Merge Request (MR) hjjacia la rama principal. El mentor revisará y añadirá comentarios o sugerencias directamente en **REVISION.md** dentro del mismo PR.
 - [ ] Mantener un historial de commits limpio y descriptivo (**docs:, feat:, chore:, refactor:**)
 
-## Fase 1: JavaScript desde Cero (con base de programación)
+## Fase 1: [JavaScript desde Cero (con base de programación)](/ejercicios/fase1/FASE1.md)
 
 - [ ] Sintaxis básica: Tipos, operadores, estructuras de control (**if, for, while**).
 - [ ] Funciones: declaración, expresiones, ámbitos y closures.
