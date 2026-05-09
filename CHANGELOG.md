@@ -7,6 +7,18 @@ y este proyecto se adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.
 
 ## [Unreleased]
 
+### [1.1.1] - 2026-05-08
+
+#### Agregado
+
+Se continua con la Fase 1. Se encuentra el sitio [Aprende JavaScript](https://www.aprendejavascript.dev/) Por la estructura del curso, parece adecuado a la finalidad del Plan de Formación Técnica  
+
+Se agregan notas del avance al respecto en el archivo [FASE1.md](/ejercicios/fase1/FASE1.md)
+
+#### BTW 
+
+Se sigue el Plan de Formación Técnica
+
 ### [1.1.1] - 2026-05-05
 
 #### Agregado
