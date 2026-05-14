@@ -117,7 +117,7 @@ Se cuentan nueve tipos de datos en JavaScript, de ellos son 7 los tipos primitiv
 
 En JavaScript, no hay una diferencia entre números enteros y números decimales, todos los números son de tipo **number**
 
-##### Operadores
+##### Operadores Aritméticos
 
 + Suma (+)  
 + Resta (-)  
@@ -138,11 +138,11 @@ Los operadores mantienen los convenios matemáticos que describen el orden en qu
 
 Las comillas simples y dobles funcionan igual, pero al usar acentos graves podemos escribir cadenas de texto que ocupen varias líneas:
 
-`Esto es una cadena de texto
-que ocupa varias líneas. Puedes escribir
+`Esto es una cadena de texto  
+que ocupa varias líneas. Puedes escribir  
 tantas líneas como quieras`
 
-- Operadores
+- Operador concatenador (para cadenas de texto)
 
 ##### Concatenador (+)
 
@@ -159,13 +159,33 @@ Se usan para operaciones de lógica binaria, verdadero o falso.
 La declaración más básica es una declaración de bloque, que se utiliza para agrupar instrucciones. El bloque está delimitado por un par de llaves:  
 
 >{  
->  statement_1;  
->  statement_2;  
->  ⋮  
->  statement_n;  
+>>  statement_1;  
+>>  statement_2;  
+>>  ⋮  
+>>  statement_n;  
 >}  
 
 Las declaraciones de bloque se utilizan comúnmente con declaraciones de control de flujo (if, for, while).  
+
+#### Operadores de Comparación
+
+Los operadores de comparación sólo regresan uno de los dos valores **true** o **False**  
+
+Por ejemplo:  
+
+5 > 3 // true  
+5 < 3 // false  
+
+5 >= 3 // true  
+5 >= 5 // true  
+
+5 <= 3 // false
+5 <= 5 // true
+
+5 === 5 // true
+5 !== 5 // false
+
+
 
 
 - [ ] Funciones: declaración, expresiones, ámbitos y closures.
