@@ -7,6 +7,10 @@ y este proyecto se adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.
 
 ## [Unreleased]
 
+### [1.1.1] - 2026-05-15
+
+Se agregan notas en FASE1.md, sobre operadores lógicos y se continua con el mismo curso [Aprende JavaScript](https://www.aprendejavascript.dev/)  
+
 ### [1.1.1] - 2026-05-08
 
 #### Agregado
