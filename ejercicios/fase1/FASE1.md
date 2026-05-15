@@ -20,7 +20,7 @@ JavaScript por sí solo es bastante compacto aunque muy flexible, y los desarrol
 
 ___
 
-- [X] Sintaxis básica: Tipos, operadores, estructuras de control (**if, for, while**).
+[X] Sintaxis básica: Tipos, operadores, estructuras de control (**if, for, while**).
 
 ### Conceptos básicos
 
@@ -163,7 +163,7 @@ La declaración más básica es una declaración de bloque, que se utiliza para 
 >>  statement_2;  
 >>  ⋮  
 >>  statement_n;  
->}  
+}  
 
 Las declaraciones de bloque se utilizan comúnmente con declaraciones de control de flujo (if, for, while).  
 
@@ -184,6 +184,34 @@ Por ejemplo:
 
 5 === 5 // true
 5 !== 5 // false
+
+### Operadores Lógicos
+
+Sean los enunciados A, B y C, entonces se tiene que:  
+
+Se usa un doble ampersand para la operación lógica llamada **conjunción &&**  
+
+A && B _Es verdadero, sí y sólo sí_ A es _v_ y B es _v_  
+
+A && B _Es falso, sí y sólo sí_ A es _f_ o B es _f_  
+
+Se usa un doble pipe para la operación lógica llamada **disyunción ||**  
+
+A || B _Es verdadero, sí y sólo sí_ A es _v_ o B es _v_  
+
+A || B _Es falso, sí y sólo sí_ A es _f_ y B es _f_  
+
+Se usa un sigmo de admiración simple para denotar la **negación !**
+
+!A _Es verdadero, sí y sólo sí_ A es _f_  
+
+!A _Es falso, sí y sólo sí_ A es _v_  
+
+
+
+
+
+
 
 
 
