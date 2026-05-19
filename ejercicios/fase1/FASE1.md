@@ -207,6 +207,76 @@ Se usa un sigmo de admiración simple para denotar la **negación !**
 
 !A _Es falso, sí y sólo sí_ A es _v_  
 
+*** Variables
+
+Para crear una variable se puede usar la palabra reservada `let` y se le da un nombre a la variable.
+
+ejemplo
+
+`let numero = 1`
+
+`let WelcomeText = 'Hola_Mundo'`
+
+### Constantes
+
+Las constantes son variables que no pueden ser reasignadas. Para crear una constante se usa la palabra reservada `const`.
+
+ejemplo
+
+`const PI = 3.1416`
+
+Si usas const, debes inicializarla con un valor o dará error. Si usas let, puedes asignar más tarde el valor
+
+Otra palabra reservada para crear variables es `var`, aunque es recomendable evitar el uso de esta última.
+
+En JavaScript, los nombres de las variables pueden contener letras, números y el guión bajo (_). Además, el primer carácter del nombre de la variable no puede ser un número.
+
+Es importante tener en cuenta que los nombres de las variables son sensibles a las mayúsculas y minúsculas.
+
+Convenciones y nomenclaturas  
+
+En JavaScript, existen diferentes nomenclaturas para nombrar las variables: camelCase, snake_case y SCREAMING_CASE.
+
+Lo más habitual, y es buena idea, es usarlo en los nombres de archivos. Por ejemplo, mi_archivo.js. Esto es porque algunos sistemas operativos distinguen entre mayúsculas y minúsculas y, por tanto, mi_archivo.js y Mi_archivo.js son dos archivos diferentes.
+
+SCREAMING_CASE es una forma de nombrar que consiste en escribir todas las palabras en mayúsculas y separarlas con guiones bajos.
+
+### Console.log
+
+console.log() es una función integrada en JavaScript que se utiliza para imprimir mensajes en la consola del navegador o del editor de código. Se utiliza principalmente para depurar el código y para imprimir valores de variables y mensajes para ayudar en el proceso de desarrollo.
+
+Sintaxis
+Para poder mostrar estos mensajes en consola, debes escribir console.log() y dentro de los paréntesis, el mensaje que quieres mostrar.
+
+console.log('Hola, JavaScript')  
+// -> 'Hola, JavaScript'  
+
+
+const nombre = 'JavaScript'  
+const version = 2023  
+console.log(nombre, version)  
+// -> 'JavaScript 2023'  
+
+#### Más métodos de console
+Además de console.log(), existen otros métodos que puedes utilizar para imprimir mensajes en la consola. Algunos de ellos son:
+
+console.error(): Imprime un mensaje de error en la consola.
+console.warn(): Imprime un mensaje de advertencia en la consola.
+console.info(): Imprime un mensaje de información en la consola.
+
+### Operador typeof
+
+El operador typeof devuelve una cadena de texto que indica el tipo de un operando. Puede ser usado con cualquier tipo de operando, incluyendo variables y literales.
+
+const MAGIC_NUMBER = 7
+typeof MAGIC_NUMBER // "number"
+También puedes usarlo directamente con los valores que quieras comprobar:
+
+typeof undefined // "undefined"
+typeof true // "boolean"
+typeof 42 // "number"
+typeof 'Hola mundo' // "string"
+
 
 
 
