@@ -7,6 +7,10 @@ y este proyecto se adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.
 
 ## [Unreleased]
 
+### {1.1.1] - 2026-05-26
+
+Se agregan ejemplos sobre el condicional en JavaScript, en el documento de ejercicios de la [FASE1.md](/ejercicios/fase1/FASE1.md)
+
 ### [1.1.1] - 2026-05-19
 
 Se agrega información en FASE1.md, con referenia a variables y constantes en JavaScript.
