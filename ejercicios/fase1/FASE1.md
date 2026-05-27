@@ -277,7 +277,40 @@ typeof true // "boolean"
 typeof 42 // "number"
 typeof 'Hola mundo' // "string"
 
+## Estructuras de control (**if, for, while**).
 
+El condicional funciona con la palabra reservada **if**, su sintaxis es como sigue:
+
+
+### > if
+
+if (condición) {
+    // código que se ejecuta si la condición es verdadera
+}
+
+### > else
+
+Otra palabra reservada asociada al condicional es **else**, que ejecuta otro bloque de código cuando la condición es falsa.
+
+if (condición) {
+    // código que se ejecuta si la condición es verdadera
+} else {
+    // código que se ejecuta cuando la condición es falsa
+}
+
+### > else if
+
+Otra estructura asiciada al condicional se compone de ambos términos como sigue:
+
+const edad = 17
+
+if (edad >= 18) {  
+  console.log('Eres mayor de edad')  
+} else if (edad >= 16) {  
+  console.log('Eres casi mayor de edad')  
+} else {  
+  console.log('Eres menor de edad')  
+}
 
 
 
