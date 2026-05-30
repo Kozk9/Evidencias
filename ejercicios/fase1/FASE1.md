@@ -34,7 +34,7 @@ JavaScript distingue entre mayúsculas y minúsculas (es case-sensitive) y utili
 
 `let Früh = "foobar";`
 
-En JavaScript, las instrucciones se denominan declaraciones y están separadas por punto y coma (;).
+En JavaScript, las instrucciones se denominan declaraciones y están separadas por punto y coma `(;)`.
 
 No es necesario un punto y coma después de una declaración si está escrita en su propia línea. Pero si se deseas más de una declaración en una línea, entonces debes separarlas con punto y coma. 
 
@@ -44,8 +44,8 @@ La sintaxis de los comentarios es la misma que en C++ y en muchos otros lenguaje
 
 // un comentario de una línea
 
-/* este es un comentario
- * más largo, de varias líneas
+/* este es un comentario  
+ * más largo, de varias líneas  
  */
 
 /* Sin embargo, no puedes /* anidar comentarios */ SyntaxError */
@@ -74,7 +74,7 @@ Un identificador de JavaScript debe comenzar con una letra, un guión bajo (_) o
 
 Dado que JavaScript distingue entre mayúsculas y minúsculas, las letras incluyen los caracteres "A" a "Z" (mayúsculas), así como "a" a "z" (minúsculas).
 
-Puedes utilizar la mayoría de las letras ISO 8859-1 o Unicode como å y ü en los identificadores. (Para obtener más detalles, consulta esta publicación del blog). También puedes usar Secuencias de escape Unicode como caracteres en identificadores.
+Puedes utilizar la mayoría de las letras ISO 8859-1 o Unicode como å y ü en los identificadores. ... También puedes usar Secuencias de escape Unicode como caracteres en identificadores.
 
 Algunos ejemplos de nombres legales son Number_hits, temp99, $credit y _name.
 
@@ -143,9 +143,11 @@ Los operadores mantienen los convenios matemáticos que describen el orden en qu
 
 Las comillas simples y dobles funcionan igual, pero al usar acentos graves podemos escribir cadenas de texto que ocupen varias líneas:
 
-`Esto es una cadena de texto \n
-que ocupa varias líneas. Puedes escribir \n 
-tantas líneas como quieras`
+```
+Esto es una cadena de texto  
+que ocupa varias líneas. Puedes escribir
+tantas líneas como quieras
+```
 
 - Operador concatenador (para cadenas de texto)
 
@@ -163,12 +165,14 @@ Se usan para operaciones de lógica binaria, verdadero o falso.
 
 La declaración más básica es una declaración de bloque, que se utiliza para agrupar instrucciones. El bloque está delimitado por un par de llaves: 
 
-`{  \n
-    statement_1; \n 
-    statement_2; \n
-    ⋮  \n
-    statement_n; \n 
-}` 
+```
+{
+    statement_1; 
+    statement_2; 
+    ⋮  
+    statement_n; 
+}
+``` 
 
 Las declaraciones de bloque se utilizan comúnmente con declaraciones de control de flujo (if, for, while).
 
@@ -178,17 +182,19 @@ Los operadores de comparación sólo regresan uno de los dos valores **true** o 
 
 Por ejemplo: 
 
-`5 > 3 // true \n 
-5 < 3 // false \n
+```
+5 > 3 // true  
+5 < 3 // false 
 
-5 >= 3 // true \n
-5 >= 5 // true \n
+5 >= 3 // true 
+5 >= 5 // true 
 
-5 <= 3 // false \n
-5 <= 5 // true \n
+5 <= 3 // false 
+5 <= 5 // true 
 
-5 === 5 // true \n
-5 !== 5 // false \n`
+5 === 5 // true 
+5 !== 5 // false 
+```
 
 #### Operadores Lógicos
 
@@ -211,6 +217,7 @@ Se usa un sigmo de admiración simple **!** para denotar la **negación** lógic
 **!A _Es verdadero, sí y sólo sí_ A es _f_** 
 
 **!A _Es falso, sí y sólo sí_ A es _v_** 
+
 
 #### Variables
 
@@ -252,7 +259,7 @@ SCREAMING_CASE es una forma de nombrar que consiste en escribir todas las palabr
 
 #### Sintaxis
 Para poder mostrar estos mensajes en consola, debes escribir **console.log()** y dentro de los paréntesis, el mensaje que quieres mostrar.
-
+```
 console.log('Hola, JavaScript')  
 // -> 'Hola, JavaScript' 
 
@@ -260,7 +267,7 @@ const nombre = 'JavaScript'
 const version = 2023  
 console.log(nombre, version)  
 // -> 'JavaScript 2023'  
-
+```
 #### Más métodos de console
 
 Además de **console.log()**, existen otros métodos que puedes utilizar para imprimir mensajes en la consola. Algunos de ellos son:
@@ -273,44 +280,46 @@ Además de **console.log()**, existen otros métodos que puedes utilizar para im
 
 El operador **typeof** devuelve una cadena de texto que indica el tipo de un operando. Puede ser usado con cualquier tipo de operando, incluyendo variables y literales.
 
+```
 const MAGIC_NUMBER = 7
-
 typeof MAGIC_NUMBER // "number"
-
+```
 También puedes usarlo directamente con los valores que quieras comprobar:
 
+```
 typeof undefined // "undefined"
-
 typeof true // "boolean"
-
 typeof 42 // "number"
-
 typeof 'Hola mundo' // "string"
-
+```
 ### Estructuras de control (**if, for, while**).
 
 El condicional funciona con la palabra reservada **if**, su sintaxis es como sigue:
 
-#### | if
+#### if
 
+```
 if (condición) {
     // código que se ejecuta si la condición es verdadera
 }
-
-#### | else
+```
+#### else
 
 Otra palabra reservada asociada al condicional es **else**, que ejecuta otro bloque de código cuando la condición es falsa.
 
+```
 if (condición) {
     // código que se ejecuta si la condición es verdadera
 } else {
     // código que se ejecuta cuando la condición es falsa
 }
+```
 
-#### | else if
+#### else if
 
 Otra estructura asiciada al condicional se compone de ambos términos como sigue:
 
+```
 const edad = 17
 
 if (edad >= 18) {  
@@ -320,6 +329,7 @@ if (edad >= 18) {
 } else {  
   console.log('Eres menor de edad')  
 }
+```
 
 
 
@@ -337,5 +347,4 @@ if (edad >= 18) {
 (1) https://developer.mozilla.org/es/docs/Glossary/JavaScript  
 (2) https://developer.mozilla.org/es/docs/Learn_web_development/Getting_started/Your_first_website/Adding_interactivity  
 (3) https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Grammar_and_types
-
 
