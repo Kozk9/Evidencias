@@ -7,6 +7,12 @@ y este proyecto se adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.
 
 ## [Unreleased]
 
+### {1.1.1] - 2026-07-02
+
+Se retoma el presente repositorio Evidencias para dar continuidad al *Plan de Formación Técnica para SAPCI* mediante la documentación apegada al estudio de los códigos del Backend `totoni`. 
+
+La información trabajada, se incluye en la carpeta de `ejercicios/ESTUDIO1,md`
+
 ### {1.1.1] - 2026-05-26
 
 Se agregan ejemplos sobre el condicional en JavaScript, en el documento de ejercicios de la [FASE1.md](/ejercicios/fase1/FASE1.md)
