@@ -1,8 +1,26 @@
 ## REVISION.md para revisión de programa de mentoria
 
+### 02/07/2026
+
+#### Puntos positivos
+
+- Se sigue el orden cronológico inverso (más reciente primero), que es el estándar.
+- Uso correcto de los encabezados Agregado, Correcciones y Eliminado.
+
+#### Puntos negativos
+
+- Error de formato grave: Varias entradas usan {1.1.1] (llave de apertura en vez de corchete). Debe ser siempre [1.1.1]. Es un detalle mínimo pero rompe el estándar.
+  
+- Mal uso del Versionado Semántico: Tiene 16 entradas repartidas en 3 meses y todas usan la misma versión 1.1.1. Esto no es SemVer. Si se añaden cosas nuevas, debería ser 1.2.0; si solo son correcciones, 1.1.2. Si aún no hay un lanzamiento oficial, todo debería ir bajo [Unreleased] hasta que decida liberar una versión concreta.
+
+- Frases como "He tenido algunas dificultades...", "Me dedico a estudiar las causas..." o "BTW Se sigue el Plan..." sobran. Un changelog debe ser objetivo, frío y técnico: solo debe decir qué cambió (ej. "Se agrega archivo X", "Se corrige enlace Y"). No se pone el contexto personal ni los tropiezos del proceso.
+
+- Ortografía y redacción: Tienes varias faltas ("froma", "referenia", "encuentrar"). Corregir antes de agregar nuevos cambios.
+
+
 ### 04/05/2026
 
-- Se apecia en [README](README.md) inclusión de instrucciones completas para replicar repositorio correctamente, así como la separación del contenido sobre el progreso de las fases en [FASES.md](/fases/FASES.md). 
+- Se aprecia en [README](README.md) inclusión de instrucciones completas para replicar repositorio correctamente, así como la separación del contenido sobre el progreso de las fases en [FASES.md](/fases/FASES.md). 
 - En [CHANGELOG.md](CHANGELOG.md) se aprecian que los enlaces se encuentran como
 `[REVISION.md](https://github.com/Kozk9/Evidencias/blob/main/REVISION.`. 
 Si bien esto funciona, cabe mencionar que en los proyectos no se utilizan URL `publicas`, sino `relativas`.
