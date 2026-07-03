@@ -1,4 +1,6 @@
-Para estudiar el backend 'totoni', se comienza por 'analizar' los llamados 'archivos principales' (app.js, package.json, package-lock.json, mencionados en el README.md del repositorio `totoni`). El análisis consistirá en seguir el código, en secuencia, de acuerdo a cómo está construido y se pretende explicar en forma breve las líneas o conceptos que ocurren (para profundizar los temas, se agregan las fuentes al respecto de las citas introducidas en este documento).
+# Para estudiar el backend 'totoni'
+
+Se comienza por 'analizar' los llamados 'archivos principales' (app.js, package.json, package-lock.json, mencionados en el README.md del repositorio `totoni`). El análisis consistirá en seguir el código, en secuencia, de acuerdo a cómo está construido y se pretende explicar en forma breve las líneas o conceptos que ocurren (para profundizar los temas, se agregan las fuentes al respecto de las citas introducidas en este documento).
 
 El primero de los archivos es 'app.js'. 
 
