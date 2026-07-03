@@ -2,30 +2,46 @@
 
 Todos los cambios notables se documentan en el presente archivo.
 
+___
+
 El formato se basa en [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 y este proyecto se adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+___
+
 ## [Unreleased]
 
-### {1.1.1] - 2026-07-02
+### [2.0.4] - 2026-07-02
+
+#### Correcciones
+
+Con base en las recomendaciones del mentor, que se incluyen en REVISION.md, se realizan varias correcciones en este propio CHANGELOG.md y en el ESTUDIO.md. 
+
+#### Agregado
 
 Se retoma el presente repositorio Evidencias para dar continuidad al *Plan de Formación Técnica para SAPCI* mediante la documentación apegada al estudio de los códigos del Backend `totoni`. 
 
-La información trabajada, se incluye en la carpeta de `ejercicios/ESTUDIO1,md`
+La información trabajada, se incluye en el archivo 'ESTUDIO.md' contenido en la carpeta de `ejercicios/ESTUDIO,md`
 
-### {1.1.1] - 2026-05-26
+### [1.9.3] - 2026-05-26
+
+#### Agregado
 
 Se agregan ejemplos sobre el condicional en JavaScript, en el documento de ejercicios de la [FASE1.md](/ejercicios/fase1/FASE1.md)
 
-### [1.1.1] - 2026-05-19
+### [1.8.3] - 2026-05-19
 
-Se agrega información en FASE1.md, con referenia a variables y constantes en JavaScript.
+#### Agregado
 
-### [1.1.1] - 2026-05-15
+Se agrega información en FASE1.md, con referencia a variables y constantes en JavaScript.
+
+### [1.7.3] - 2026-05-15
+
+#### Agregado
 
 Se agregan notas en FASE1.md, sobre operadores lógicos y se continua con el mismo curso [Aprende JavaScript](https://www.aprendejavascript.dev/)  
 
-### [1.1.1] - 2026-05-08
+### [1.6.3] - 2026-05-08
 
 #### Agregado
 
@@ -33,11 +49,9 @@ Se continua con la Fase 1. Se encuentra el sitio [Aprende JavaScript](https://ww
 
 Se agregan notas del avance al respecto en el archivo [FASE1.md](/ejercicios/fase1/FASE1.md)
 
-#### BTW 
-
 Se sigue el Plan de Formación Técnica
 
-### [1.1.1] - 2026-05-05
+### [1.5.3] - 2026-05-05
 
 #### Agregado
 
@@ -54,7 +68,7 @@ Se eliminó la carpeta 'fases'
 Se eliminó la carpeta 'notas'  
 Se eliminó el archivo 'fase1.txt'
 
-### [1.1.1] - 2026-05-04
+### [1.4.2] - 2026-05-04
 
 #### Agregado
 
@@ -66,7 +80,7 @@ Se incluye un índice del Plan de Formación Técnica para SAPCI en [README.md](
 
 Se da continuidad a la Fase 1.
 
-### [1.1.1] - 2026-04-30
+### [1.3.1] - 2026-04-30
 
 #### Agregado
 
@@ -82,17 +96,14 @@ El índice sigue en proceso.
 
 #### Agregado
 
-Se agregan comandos para clonar el repositorio por HTTP o SSH
-### [1.1.1] - 2026-04-25
+Se agregan imstrucciones para clonar el repositorio por HTTP o SSH
 
-Se logra encuentrar la sencilla froma de crear carpetas en GitHub.
-Ahora se aprovecha para agregar otra carpeta que sea hermana de 'ejercicios' y se llama 'notas'.
+### [1.2.0] - 2026-04-25
+
+Se agrega una carpeta hermana de 'ejercicios', de nombre 'notas'.
 
 #### Agregado
 
-### [1.1.1] - 2026-04-20
+### [1.0.0] - 2026-04-20m
 
-Se crea el repositorio 'Evidencias' en la cuenta GitHub. Al tiempo que se descubre que las interfaces no ofrecen algún botón para crear carpetas.
-
-He tenido algunas dificultades para trabajar el repositorio, me ha negado realizar algunos cambios desde la terminal. Me dice que tengo problemas con la autenticación. 
-Me dedico a estudiar las causas y las formas de resolver.
+Se crea el repositorio 'Evidencias' en la cuenta GitHub. Al tiempo que se descubre que las interfaces no ofrecen algún botón para crear carpetas, sólo tiene uno para agregar archivos, el cual permite la creación de carpetas, mediante el uso de la diagonal */*.
