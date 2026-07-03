@@ -15,7 +15,7 @@ ___
 
 #### Correcciones
 
-Con base en las recomendaciones del mentor, que se incluyen en REVISION.md, se realizan varias correcciones en este propio CHANGELOG.md y en el ESTUDIO.md. 
+Con base en las recomendaciones del mentor, que se incluyen en REVISION.md, se realizan varias correcciones en este propio CHANGELOG.md y en el [ESTUDIO.md](/ejercicios/ESTUDIO.md). 
 
 #### Agregado
 
