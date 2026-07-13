@@ -11,6 +11,12 @@ ___
 
 ## [Unreleased]
 
+
+### [2.1.4] - 2026-07-13
+
+Se da inicio al curso **Free Code Camp**, las notas del mismo se agregan al archivo **FREECODECAMP.md**
+
+
 ### [2.0.4] - 2026-07-02
 
 #### Correcciones
