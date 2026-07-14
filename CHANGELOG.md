@@ -14,7 +14,11 @@ ___
 
 ### [2.1.4] - 2026-07-13
 
-Se da inicio al curso **Free Code Camp**, las notas del mismo se agregan al archivo **FREECODECAMP.md**
+Se agregan ejercicios y teoría en [FREECODECAMP.md](./ejercicios/FREECODECAMP.md)
+
+### [2.1.4] - 2026-07-13
+
+Se da inicio al curso **Free Code Camp**, las notas del mismo se agregan al archivo **[FREECODECAMP.md](./ejercicios/FREECODECAMP.md)**
 
 
 ### [2.0.4] - 2026-07-02
