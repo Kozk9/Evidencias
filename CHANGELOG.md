@@ -13,6 +13,10 @@ ___
 
 ### [2.2.4] - 2026-07-15
 
+#### Correcciones
+
+Se realizan correcciones en estructura de CHANGELOG.md
+
 #### Agregado
 
 Se agrega material del curso recomendado por el mentor en [FREECODECAMP.md](./ejercicios/FREECODECAMP.md).
