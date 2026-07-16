@@ -7,8 +7,8 @@ ___
 ___
 
 #### What Is a Data Type, and What Are the Different Data Types in JavaScript?
-I
-n JavaScript, a data type is the kind of value you store, like a number or piece of text.
+
+In JavaScript, a data type is the kind of value you store, like a number or piece of text.
 
 A variable is a named container that stores a value of a specific data type, allowing you to reference and manipulate it throughout your code.
 
@@ -32,15 +32,15 @@ A `Number` represents both integers and floating-point values. Examples of integ
 
 *NOTE*: `console.log()` is a function that outputs information to the console, which is a part of your web browser used for debugging code. You will learn more about `console.log()` in future lessons. Also, the `//` symbols are used to add comments in your code. Comments are notes for yourself or other programmers that are ignored when the code runs.
 
-* N/A Enable the interactive editor and try changing some of the integers to see it update in the console.
-
 A floating point number is a number with a decimal point. Examples of floating point numbers include `3.14` and `5.2`.
 
 * The next data type is a `String`.
 
 A `String` is a sequence of characters, or text, enclosed in quotes. Here is an example string using double quotes:
 
-`console.log("I love to code!");`
+```
+console.log("I love to code!");
+```
 
 Oftentimes you will use strings to represent names, labels, alert messages, etc.
 
@@ -289,9 +289,9 @@ Strings are an important part of programming, and in future lessons, you will le
 
 In JavaScript, working with text is an essential part of coding, and often, you'll need to combine or join pieces of text together. This process is called string concatenation.
 
-In this lesson, we'll focus on how string concatenation works, specifically using the + operator, the += operator, and the concat() method.
+In this lesson, we'll focus on how string concatenation works, specifically using the `+` operator, the `+=` operator, and the `concat()` method.
 
-The + operator is one of the simplest and most frequently used methods to concatenate strings. It allows you to join multiple strings or combine strings with variables that hold text.
+The `+` operator is one of the simplest and most frequently used methods to concatenate strings. It allows you to join multiple strings or combine strings with variables that hold text.
 
 Here's an example:
 
