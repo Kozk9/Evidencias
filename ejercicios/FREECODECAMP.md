@@ -521,3 +521,208 @@ If you want to add comments to your personal projects as you are learning to cod
 It is also important not to use comments to help explain away confusing, overly complicated, or poorly written code. In those situations, it is best to refactor, or change, your code so other developers will better understand what is going on.
 
 Comments are powerful tools for documenting your code and making it easier to understand. You should use comments to provide context or leave notes for yourself and others.
+
+
+### Lab
+
+#### Build a Sentence Maker
+
+```
+// 1 & 2
+let adjective = "little ";
+let noun = "dog";
+let verb = "playing";
+let place = "town";
+let adjective2 = "mad";
+let noun2 = "cat";
+// 3 & 4
+let firstStory = "Once upon a time, there was a(n) " + adjective +" "+ noun +" who loved to eat " + noun2 +". The " + noun +" lived in a " + place + " and had " + adjective2 +" nostrils that blew fire when it was " + verb +".";
+// 5
+console.log("First story: " + firstStory)
+// 6
+adjective = "lovely ";
+noun = "Lika";
+verb = "dreaming";
+place = "heart"
+adjective2 = "beautyfull";
+noun2 = "Kozk";
+// 7 & 8
+let secondStory = "Once upon a time, there was a(n) " + adjective +" "+ noun +" who loved to eat " + noun2 +". The " + noun +" lived in a " + place + " and had " + adjective2 +" nostrils that blew fire when it was " + verb +".";
+// 9
+console.log("Second story: " + secondStory)
+```
+
+### Working with Data Types
+
+#### What Is Dynamic Typing in JavaScript, and How Does It Differ from Statically Typed Languages?
+
+JavaScript is a dynamically typed language, meaning you don't need to specify the data type of a variable when you declare it. Instead, the type is determined based on the value assigned to the variable while the program is running. This allows you to change the type of a variable throughout the program.
+
+Let's look at an example:
+
+```
+let example = "Hello";
+example = 42;
+```
+
+In this example, we have a variable called `example` with the data type of string. But then we update value to be a number instead.
+
+The flexibility of dynamic typing makes JavaScript more forgiving and easy to work with for quick scripting, but it can also introduce bugs that may be harder to catch, especially as your program grows larger.
+
+In statically typed languages like C# or C++, you must declare the data type of a variable when you create it, and that type cannot change.
+
+For instance, if you declare a variable as `integer`, you can only assign it integer values. If you try to assign it a different type, the program will throw an error.
+
+Here's an example in C# language:
+
+```
+int data = 42; // data must always be an integer
+data = "Hello"; // This would cause an error in C#
+```
+
+The difference between dynamic typing and static typing lies in the flexibility vs. the safety of your code. Dynamically typed languages offer flexibility but at the cost of potential runtime errors.
+
+Statically typed languages enforce stricter rules that can prevent certain errors, but they require more upfront declaration and offer less flexibility in changing types.
+
+Here is another example of creating a variable with a type set to `number` then changing it to later be of type `string`:
+
+```
+let data = 100;  // Initially a number
+data = "New data";  // Dynamically changes to a string
+```
+
+In a statically typed language, this kind of change would not be allowed, as the data type would be fixed.
+
+In conclusion, JavaScript's dynamic typing allows variables to change types freely, which offers flexibility but can lead to unexpected errors during execution.
+
+Statically typed languages like Java require you to specify variable types upfront, which helps catch errors before the program runs but offers less flexibility.
+
+#### Questions
+
+> Which of the following best describes dynamic typing in JavaScript?
+
+* You must declare the type of the variable before assigning a value.
+* The data type of a variable is determined when it is assigned a value.
+Correct!
+* Variables can only hold one type of data.
+* JavaScript does not allow changing variable types after they are declared.
+
+> What is a key difference between dynamically typed languages and statically typed languages?
+
+* Dynamically typed languages require you to declare variable types before assigning values.
+* Statically typed languages allow changing variable types at runtime.
+* Statically typed languages enforce a fixed variable type.
+Correct!
+* Dynamically typed languages do not allow variable reassignment.
+
+> In JavaScript, what happens if you declare a variable and later assign it a value of a different type?
+
+* JavaScript will throw a compile-time error.
+* The variable will change to the new type without error.
+Correct!
+* The variable will retain its original type and ignore the new value.
+* The program will crash.
+___
+
+#### How Does the typeof Operator Work, and What Is the typeof null Bug in JavaScript?
+
+The `typeof` operator in JavaScript is a simple yet powerful tool that lets you see the data type of a variable or value. It always returns a string indicating the type.
+
+Let's take a look at a few examples:
+
+```
+let num = 42;
+console.log(typeof num); // "number"
+```
+
+In this first example, we have created a variable called `num` and assigned it the number `42`. When you use the `typeof` operator on the variable named `num`, it will return the string `number`.
+
+Here is another example of using the `typeof` operator on variable called `isUserLoggedIn`:
+
+```
+let isUserLoggedIn = true;
+console.log(typeof isUserLoggedIn); // "boolean"
+```
+
+When you use the `typeof` operator on the `isUserLoggedIn` variable, it will return a string `boolean` because the boolean `true` was assigned to the variable.
+
+Using the `typeof` operator can be especially useful when you're debugging or trying to understand what kind of data you're working with in your code.
+
+However, there's a well-known quirk in JavaScript when it comes to `null`.
+
+Let's take a look at an example:
+
+```
+let exampleVariable = null;
+console.log(typeof exampleVariable); // "object"
+```
+
+In this example, we have a variable called `exampleVariable` and have assigned it the value of `null`. But when we use the `typeof` operator, it returns the string `object`.
+
+This is widely considered a bug in JavaScript, dating back to its early days. The reason for this behavior is rooted in the way JavaScript was originally designed.
+
+When the language was first implemented, values like `null` were represented as a special type of object, leading to this unexpected result.
+
+Unfortunately, this has become a part of the language, and while it's confusing, it's something you'll need to be aware of.
+
+#### Questions
+
+> What does the typeof operator return when used on a string in JavaScript?
+* "string"
+Correct!
+* "text"
+* "character"
+* "object"
+
+> Why is typeof null considered a bug in JavaScript?
+* It returns "null" instead of "undefined".
+* It returns "object" instead of "null".
+Correct!
+* It doesn't work on null.
+* It returns an error.
+
+> What does the typeof operator return when used on a number in JavaScript?
+* "number"
+Correct!
+* "integer"
+* "numeric"
+* "float"
+___
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
