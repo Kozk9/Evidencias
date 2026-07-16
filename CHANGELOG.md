@@ -11,6 +11,9 @@ ___
 
 ## [Unreleased]
 
+### [2.2.4] - 2026-07-13
+
+Se agrega material del curso recomendado por el mentor en [FREECODECAMP.md](./ejercicios/FREECODECAMP.md).
 
 ### [2.1.4] - 2026-07-13
 
