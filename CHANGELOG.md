@@ -13,13 +13,19 @@ ___
 
 ### [2.2.4] - 2026-07-15
 
+#### Agregado
+
 Se agrega material del curso recomendado por el mentor en [FREECODECAMP.md](./ejercicios/FREECODECAMP.md).
 
 ### [2.1.4] - 2026-07-14
 
+#### Agregado
+
 Se agregan ejercicios y teoría en [FREECODECAMP.md](./ejercicios/FREECODECAMP.md)
 
 ### [2.1.4] - 2026-07-13
+
+#### Agregado
 
 Se da inicio al curso **Free Code Camp**, las notas del mismo se agregan al archivo **[FREECODECAMP.md](./ejercicios/FREECODECAMP.md)**
 
