@@ -1,10 +1,67 @@
-# Free Code Camp
+# Free Code Camp - JavaScript Certification
 
 ## Variables and Strings
 ___
 
 ### Introduction to JavaScript
 ___
+
+#### What Is JavaScript, and How Does It Work with HTML and CSS?
+
+JavaScript is a powerful programming language that brings interactivity and dynamic behavior to websites.
+
+While HTML and CSS are used to structure content and style elements on a page, JavaScript goes beyond those by enabling more complex functionality, such as handling user input, animating elements, and even building full web applications.
+
+For example, when you click a button, submit a form, or hover over a menu, JavaScript determines how the page behaves.
+
+Here's an example of how these three work together:
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    h1 {
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello, World!</h1>
+  <button onclick="alert('Button clicked!')">Click me</button>
+</body>
+</html>
+```
+
+In this example, HTML is used to define the content: a heading (an `h1` element) and a button (the `button` element).
+
+CSS is used to apply styles to the heading, such as making the text green. JavaScript is used to display an alert message when the button is clicked.
+
+To sum up, HTML provides structure, CSS adds styling, and JavaScript enables behavior, creating a complete and interactive web experience.
+
+##### Questions
+
+> What role does JavaScript play in web development compared to HTML and CSS?
+* JavaScript provides structure to the webpage and ensures that your code is free of errors.
+* JavaScript provides the styles for the web page and automatically formats your code.
+* JavaScript provides interactive functionality and dynamic behavior for the web page.
+Correct!
+* JavaScript is only used to create advanced animations for web applications.
+
+> How does JavaScript typically interact with HTML and CSS on a webpage?
+* JavaScript adds more styles to the CSS file and more elements to the HTML file.
+* JavaScript creates a new version of HTML for the page so your HTML code will run faster.
+* JavaScript interacts with the page to change content and styles dynamically.
+Correct!
+* JavaScript only works in the back-end and is rarely used in the front-end.
+
+> Which of the following is true about the relationship between JavaScript, HTML, and CSS?
+* HTML is a programming language and CSS is a stylesheet language, while JavaScript is a markup language.
+* HTML is a markup language and CSS is a stylesheet language, while JavaScript is a programming language.
+Correct!
+* JavaScript can replace HTML and CSS.
+* JavaScript does not work with HTML and CSS.
+
 
 #### What Is a Data Type, and What Are the Different Data Types in JavaScript?
 
@@ -40,6 +97,10 @@ A `String` is a sequence of characters, or text, enclosed in quotes. Here is an 
 
 ```
 console.log("I love to code!");
+```
+Here is an example using single quotes:
+```
+console.log('I love to code!');
 ```
 
 Oftentimes you will use strings to represent names, labels, alert messages, etc.
@@ -85,6 +146,30 @@ In this example, we create a `BigInt` by adding `n` at the end of a very large n
 
 Understanding these data types helps you handle and work with various kinds of data in your programs, as each type has its own characteristics and behaviors.
 
+##### Questions
+
+Which of the following is a string data type?
+* "Hello!"
+Correct!
+* 42
+* false
+* null
+
+> What data type represents a value that is either true or false?
+* Number
+* String
+* Boolean
+Correct!
+* Undefined
+
+> If a variable has been declared but not assigned a value, what is its data type?
+* String
+* Number
+* Undefined
+Correct!
+* Null
+
+
 #### What Are Variables, and What Are Guidelines for Naming JavaScript Variables?
 
 In JavaScript, variables act as containers for storing data that you can access and modify throughout your program.
@@ -95,7 +180,30 @@ One way to declare a variable in JavaScript is to use the `let` keyword. You wil
 
 Here's an example of using `let` to declare a variable called `age`:
 
-```What Is Bracket Notation, and How Do You Access Characters from a String?
+```
+let age;
+```
+Right now, the `age` variable does not have a value assigned to it. If you try to use it, it will return `undefined`, which means it has no value.
+
+Here is an example.
+
+NOTE: `console.log()` is a function that outputs information to the console, which is a part of your web browser used for debugging code. You will learn more about `console.log()` in future lessons. Also, the `//` symbols are used to add comments in your code. Comments are notes for yourself or other programmers that are ignored when the code runs.
+
+```
+let age;
+console.log(age); // undefined
+```
+To assign a value to a variable you will need to use the assignment operator like this:
+```
+let age = 25;
+```
+Now when you use the `age` variable, it will return the value of `25`.
+```
+let age = 25;
+console.log(age); // 25
+```
+
+What Is Bracket Notation, and How Do You Access Characters from a String?
 
 In JavaScript, strings are treated as sequences of characters, and each character in a string can be accessed using bracket notation. This allows you to retrieve a specific character from a string based on its position, which is called its index.
 
@@ -105,7 +213,6 @@ For example, in the string hello, the character h is at index 0, e is at index 1
 
 Bracket notation uses square brackets ([]) and the index of the character you want to access. Let’s look at an example:
 let age;
-```
 
 Right now, the `age` variable does not have a value assigned to it. If you try to use it, it will return `undefined`, which means it has no value.
 
