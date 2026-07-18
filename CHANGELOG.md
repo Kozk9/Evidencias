@@ -11,6 +11,12 @@ ___
 
 ## [Unreleased]
 
+### [2.3.4] - 2026-07-16
+
+###W Agregado
+
+Se agregam ejercicios a [FREECODECAMP.md](./ejercicios/FREECODECAMP.md).
+
 ### [2.2.4] - 2026-07-15
 
 #### Correcciones
