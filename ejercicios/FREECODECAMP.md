@@ -1196,3 +1196,648 @@ Correct!
 * Changing the color of the dialog box.
 
 ___
+
+#### Build a Chat Bot
+
+##### Step 1
+
+In this workshop, you are going to continue learning about strings by building a Teacher Chatbot.
+
+To begin, add a `console` statement, with the message of `"Hi there!"`.
+
+```
+console.log("Hi there!");
+```
+
+##### Step 2
+
+Now it is time to set the bot's name.
+
+Create a variable called `botName` and assign it the string value of `"teacherBot"`.
+
+```
+const botName = "teacherBot";
+```
+
+##### Step 3
+
+Now it is time to create a greeting using the `botName` variable.
+
+In previous lessons, you learned how to concatenate strings using template literals like this:
+
+> Example Code
+
+```
+const name = "John";
+
+// "Hello, John!"
+`Hello, ${name}!`;
+
+```
+Start by creating a variable called `greeting`.
+
+Next, using template literal syntax, assign a string that says `My name is,` followed by the `botName` variable, and ending with a period (`.`).
+
+Finally, log the `greeting` variable to the console.
+
+```
+console.log("Hi there!");
+
+const botName = "teacherBot";
+
+const greeting = `My name is ${botName}.`;
+console.log(greeting);
+```
+
+##### Step 4
+
+The next step is to create a few more variables that will be used in future bot messages.
+
+Create a variable called `subject` and assign it the string value `"JavaScript"`.
+
+Then create a variable called `topic` and assign it the string value `"strings"`.
+
+```
+console.log("Hi there!");
+
+const botName = "teacherBot";
+
+const greeting = `My name is ${botName}.`;
+console.log(greeting);
+
+const subject = "JavaScript";
+const topic = "strings";
+```
+
+##### Step 5
+
+Now, it's time to use the variables you created in the previous step.
+
+In previous lessons, you learned how to work with template literals like this:
+> Example Code
+
+```
+const name = "John";
+const age = 30;
+
+// My name is John and I am 30 years old.
+`My name is ${name} and I am ${age} years old.`;
+```
+
+Start by creating a `sentence` variable.
+
+Using template literal syntax, assign the string `Today, you will learn about [topic variable goes here] in [subject variable goes here].` to the `sentence` variable.
+
+You will replace the `[topic variable goes here]` and `[subject variable goes here]` placeholders with the `topic` and `subject` variables and `${}` syntax.
+
+Finally, log the `sentence` variable to the console.
+
+```
+console.log("Hi there!");
+
+const botName = "teacherBot";
+
+const greeting = `My name is ${botName}.`;
+console.log(greeting);
+
+const subject = "JavaScript";
+const topic = "strings";
+
+const sentence = `Today, you will learn about ${topic} in ${subject}.`;
+console.log(sentence);
+```
+
+##### Step 6
+
+For this next portion of the project, the bot will teach working with the string length property.
+
+Start by creating a new variable called `strLengthIntro`.
+
+Then using template literal syntax, assign the string `Here is an example of using the length property on the word [subject].` to the `strLengthIntro` variable.
+
+Replace `[subject]` with the `subject` variable like you did earlier.
+
+Finally, log the `strLengthIntro` variable to the console.
+
+```
+console.log("Hi there!");
+
+const botName = "teacherBot";
+
+const greeting = `My name is ${botName}.`;
+console.log(greeting);
+
+const subject = "JavaScript";
+const topic = "strings";
+
+const sentence = `Today, you will learn about ${topic} in ${subject}.`;
+console.log(sentence);
+
+const strLengthIntro = `Here is an example of using the length property on the word ${subject}.`
+console.log(strLengthIntro);
+```
+
+##### Step 7
+
+To get the length of a string, you can use the length property. This property returns the number of characters in a string.
+
+Here is an example:
+> Example Code
+```
+const greeting = "Hello, world!";
+
+// Output: 13
+console.log(greeting.length);
+```
+
+Start by using the `length` property to get the length of the `subject` string and log that value to the console.
+
+```
+onsole.log("Hi there!");
+
+const botName = "teacherBot";
+
+const greeting = `My name is ${botName}.`;
+console.log(greeting);
+
+const subject = "JavaScript";
+const topic = "strings";
+
+const sentence = `Today, you will learn about ${topic} in ${subject}.`;
+console.log(sentence);
+
+const strLengthIntro = `Here is an example of using the length property on the word ${subject}.`;
+console.log(strLengthIntro);
+console.log(subject.length);
+
+```
+
+##### Step 8
+
+Now it is time to get the length of the topic string.
+
+You can use template literals inside console statements like this:
+> Example Code
+
+```
+const developer = "Jessica";
+console.log(`Hello, my name is ${developer}.`);
+```
+
+Start by outputting the message `Here is an example of using the length property on the word [topic].` to the console.
+
+Remember to replace `[topic]` with the `topic` variable, and use proper template literal syntax as you did in the previous steps.
+
+Then, add a second console.log statement that outputs the length of the `topic` string to the console.
+
+```
+console.log("Hi there!");
+
+const botName = "teacherBot";
+
+const greeting = `My name is ${botName}.`;
+console.log(greeting);
+
+const subject = "JavaScript";
+const topic = "strings";
+
+const sentence = `Today, you will learn about ${topic} in ${subject}.`;
+console.log(sentence);
+
+const strLengthIntro = `Here is an example of using the length property on the word ${subject}.`;
+console.log(strLengthIntro);
+console.log(subject.length);
+
+console.log(`Here is an example of using the length property on the word ${topic}.`);
+console.log(topic.length);
+```
+
+##### Step 9
+
+The next part of this workshop is to review accessing characters from a string.
+
+Start by outputting the message `Here is an example of accessing the first letter in the word [subject].` to the console.
+
+Remember to replace `[subject]` with the `subject` variable and use proper template literal syntax like you did in the previous steps.
+
+```
+console.log("Hi there!");
+
+const botName = "teacherBot";
+
+const greeting = `My name is ${botName}.`;
+console.log(greeting);
+
+const subject = "JavaScript";
+const topic = "strings";
+
+const sentence = `Today, you will learn about ${topic} in ${subject}.`;
+console.log(sentence);
+
+const strLengthIntro = `Here is an example of using the length property on the word ${subject}.`;
+console.log(strLengthIntro);
+
+console.log(subject.length);
+
+console.log(`Here is an example of using the length property on the word ${topic}.`);
+console.log(topic.length);
+
+console.log(`Here is an example of accessing the first letter in the word ${subject}.`);
+console.log(subject[0]);
+```
+
+##### Step 10
+
+In previous lessons, you learned how to access characters in a string like this:
+> Example Code
+```
+const firstName = "Jessica";
+// returns "J"
+firstName[0];
+```
+Remember that index numbers start at 0, so the first letter in a string will always be at index 0.
+
+Start by adding another console statement.
+
+Inside the console statement, output the first letter of the subject variable using bracket notation and the correct index number.
+
+```
+console.log("Hi there!");
+
+const botName = "teacherBot";
+
+const greeting = `My name is ${botName}.`;
+console.log(greeting);
+
+const subject = "JavaScript";
+const topic = "strings";
+
+const sentence = `Today, you will learn about ${topic} in ${subject}.`;
+console.log(sentence);
+
+const strLengthIntro = `Here is an example of using the length property on the word ${subject}.`;
+console.log(strLengthIntro);
+
+console.log(subject.length);
+
+console.log(`Here is an example of using the length property on the word ${topic}.`);
+console.log(topic.length);
+
+console.log(`Here is an example of accessing the first letter in the word ${subject}.`);
+
+console.log(subject[0]);
+```
+
+##### Step 11
+
+Now it is time to access the second letter of the `subject` variable.
+
+Start by adding a `console` statement that outputs the message `Here is an example of accessing the second letter in the word [subject].` Remember to replace `[subject]` with the actual value of the `subject` variable and use correct template literal syntax.
+
+Then add another `console` statement that outputs the second letter of the `subject` variable using bracket notation and the correct index number.
+
+```
+console.log("Hi there!");
+
+const botName = "teacherBot";
+
+const greeting = `My name is ${botName}.`;
+console.log(greeting);
+
+const subject = "JavaScript";
+const topic = "strings";
+
+const sentence = `Today, you will learn about ${topic} in ${subject}.`;
+console.log(sentence);
+
+const strLengthIntro = `Here is an example of using the length property on the word ${subject}.`;
+console.log(strLengthIntro);
+
+console.log(subject.length);
+
+console.log(`Here is an example of using the length property on the word ${topic}.`);
+console.log(topic.length);
+
+console.log(`Here is an example of accessing the first letter in the word ${subject}.`);
+
+console.log(subject[0]);
+
+console.log(`Here is an example of accessing the second letter in the word ${subject}.`);
+console.log(subject[1]);
+```
+
+##### Step 12
+
+Now it is time to access the last character of a string.
+
+Start by adding another `console` statement that outputs the message `Here is an example of accessing the last letter in the word [subject].`
+
+Remember to replace `[subject]` with the actual value of the `subject` variable and use correct template literal syntax.
+
+```
+console.log("Hi there!");
+
+const botName = "teacherBot";
+
+const greeting = `My name is ${botName}.`;
+console.log(greeting);
+
+const subject = "JavaScript";
+const topic = "strings";
+
+const sentence = `Today, you will learn about ${topic} in ${subject}.`;
+console.log(sentence);
+
+const strLengthIntro = `Here is an example of using the length property on the word ${subject}.`;
+console.log(strLengthIntro);
+
+console.log(subject.length);
+
+console.log(`Here is an example of using the length property on the word ${topic}.`);
+console.log(topic.length);
+
+console.log(`Here is an example of accessing the first letter in the word ${subject}.`);
+
+console.log(subject[0]);
+
+console.log(`Here is an example of accessing the second letter in the word ${subject}.`);
+console.log(subject[1]);
+
+console.log(`Here is an example of accessing the last letter in the word ${subject}.`)
+```
+
+##### Step 13
+
+In previous lessons, you learned how to access the last character in a string like this:
+Example Code
+
+const firstName = "Jessica";
+
+// returns "a"
+firstName[firstName.length - 1];
+
+string.length - 1 will always give you the last index number for a string.
+
+Create a new variable called lastCharacter and assign it the value of the last character in the subject variable.
+
+Then, log the value of the lastCharacter variable to the console.
+
+```
+console.log("Hi there!");
+
+const botName = "teacherBot";
+
+const greeting = `My name is ${botName}.`;
+console.log(greeting);
+
+const subject = "JavaScript";
+const topic = "strings";
+
+const sentence = `Today, you will learn about ${topic} in ${subject}.`;
+console.log(sentence);
+
+const strLengthIntro = `Here is an example of using the length property on the word ${subject}.`;
+console.log(strLengthIntro);
+
+console.log(subject.length);
+
+console.log(`Here is an example of using the length property on the word ${topic}.`);
+console.log(topic.length);
+
+console.log(`Here is an example of accessing the first letter in the word ${subject}.`);
+
+console.log(subject[0]);
+
+console.log(`Here is an example of accessing the second letter in the word ${subject}.`);
+console.log(subject[1]);
+
+console.log(`Here is an example of accessing the last letter in the word ${subject}.`);
+
+const lastCharacter = subject[subject.length - 1];
+console.log(lastCharacter);
+```
+
+##### Step 14
+
+For the last part of the workshop, you will review how to find the index position of substring in a string. Remember that a substring is a part of a string.
+
+Start by creating a variable called `learningIsFunSentence` and assign it the string value of `"Learning is fun."`.
+
+```
+console.log("Hi there!");
+
+const botName = "teacherBot";
+
+const greeting = `My name is ${botName}.`;
+console.log(greeting);
+
+const subject = "JavaScript";
+const topic = "strings";
+
+const sentence = `Today, you will learn about ${topic} in ${subject}.`;
+console.log(sentence);
+
+const strLengthIntro = `Here is an example of using the length property on the word ${subject}.`;
+console.log(strLengthIntro);
+
+console.log(subject.length);
+
+console.log(`Here is an example of using the length property on the word ${topic}.`);
+console.log(topic.length);
+
+console.log(`Here is an example of accessing the first letter in the word ${subject}.`);
+
+console.log(subject[0]);
+
+console.log(`Here is an example of accessing the second letter in the word ${subject}.`);
+console.log(subject[1]);
+
+console.log(`Here is an example of accessing the last letter in the word ${subject}.`);
+
+const lastCharacter = subject[subject.length - 1];
+console.log(lastCharacter);
+
+const learningIsFunSentence = "Learning is fun."
+```
+
+##### Step 15
+
+The next step is to add another `console` statement that outputs the string `"Here are examples of finding the positions of substrings in the sentence."`.
+
+```
+console.log("Hi there!");
+
+const botName = "teacherBot";
+
+const greeting = `My name is ${botName}.`;
+console.log(greeting);
+
+const subject = "JavaScript";
+const topic = "strings";
+
+const sentence = `Today, you will learn about ${topic} in ${subject}.`;
+console.log(sentence);
+
+const strLengthIntro = `Here is an example of using the length property on the word ${subject}.`;
+console.log(strLengthIntro);
+
+const strLength = subject.length;
+console.log(strLength);
+
+console.log(`Here is an example of using the length property on the word ${topic}.`);
+console.log(topic.length);
+
+console.log(`Here is an example of accessing the first letter in the word ${subject}.`);
+
+console.log(subject[0]);
+
+console.log(`Here is an example of accessing the second letter in the word ${subject}.`);
+console.log(subject[1]);
+
+console.log(`Here is an example of accessing the last letter in the word ${subject}.`);
+
+const lastCharacter = subject[subject.length - 1];
+console.log(lastCharacter);
+
+const learningIsFunSentence = "Learning is fun.";
+
+console.log("Here are examples of finding the positions of substrings in the sentence.");
+```
+
+Step 16
+
+In previous lessons, you learned how to work with the `indexOf` method like this:
+
+> Example Code
+```
+const sentence = "I love to learn.";
+
+// returns index 2
+console.log(sentence.indexOf("love"));
+
+// returns -1
+console.log(sentence.indexOf("hate"));
+```
+
+Remember that the `indexOf` method returns the index position of the first occurrence of a substring in a string. If the substring is not found, it returns `-1`.
+
+Add a new `console` statement that outputs the result of using the `indexOf` method on the `learningIsFunSentence` variable to find the index position of the substring `"Learning"`.
+
+```
+console.log("Hi there!");
+
+const botName = "teacherBot";
+
+const greeting = `My name is ${botName}.`;
+console.log(greeting);
+
+const subject = "JavaScript";
+const topic = "strings";
+
+const sentence = `Today, you will learn about ${topic} in ${subject}.`;
+console.log(sentence);
+
+const strLengthIntro = `Here is an example of using the length property on the word ${subject}.`;
+console.log(strLengthIntro);
+
+console.log(subject.length);
+
+console.log(`Here is an example of using the length property on the word ${topic}.`);
+console.log(topic.length);
+
+console.log(`Here is an example of accessing the first letter in the word ${subject}.`);
+
+console.log(subject[0]);
+
+console.log(`Here is an example of accessing the second letter in the word ${subject}.`);
+console.log(subject[1]);
+
+console.log(`Here is an example of accessing the last letter in the word ${subject}.`);
+
+const lastCharacter = subject[subject.length - 1];
+console.log(lastCharacter);
+
+const learningIsFunSentence = "Learning is fun.";
+
+console.log("Here are examples of finding the positions of substrings in the sentence.");
+
+console.log(learningIsFunSentence.indexOf("fun"));
+
+console.log(learningIsFunSentence.indexOf("learning"));
+
+```
+
+##### Step 18
+
+The last console statement outputs `-1` because the substring `"learning"` is not found in the `"Learning is fun.` sentence.
+
+The `indexOf` method is case-sensitive. So the substring `"learning"` is not the same as the substring `"Learning"`.
+
+Now that you understand how some common string methods work, you can complete the workshop by logging one last message to the console.
+
+Add a console statement that outputs the message `"I hope you enjoyed learning today."` to the console.
+
+And with that final message, you have completed the workshop!
+
+```
+console.log("Hi there!");
+
+const botName = "teacherBot";
+
+const greeting = `My name is ${botName}.`;
+console.log(greeting);
+
+const subject = "JavaScript";
+const topic = "strings";
+
+const sentence = `Today, you will learn about ${topic} in ${subject}.`;
+console.log(sentence);
+
+const strLengthIntro = `Here is an example of using the length property on the word ${subject}.`;
+console.log(strLengthIntro);
+
+console.log(subject.length);
+
+console.log(`Here is an example of using the length property on the word ${topic}.`);
+console.log(topic.length);
+
+console.log(`Here is an example of accessing the first letter in the word ${subject}.`);
+
+console.log(subject[0]);
+
+console.log(`Here is an example of accessing the second letter in the word ${subject}.`);
+console.log(subject[1]);
+
+console.log(`Here is an example of accessing the last letter in the word ${subject}.`);
+
+const lastCharacter = subject[subject.length - 1];
+console.log(lastCharacter);
+
+const learningIsFunSentence = "Learning is fun.";
+
+console.log("Here are examples of finding the positions of substrings in the sentence.");
+
+console.log(learningIsFunSentence.indexOf("Learning"));
+
+console.log(learningIsFunSentence.indexOf("fun"));
+console.log(learningIsFunSentence.indexOf("learning"));
+
+console.log("I hope you enjoyed learning today." )
+```
+
+___
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
